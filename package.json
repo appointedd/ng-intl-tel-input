@@ -63,6 +63,10 @@
     "uglify": "^0.1.5"
   },
   "dependencies": {
-    "intl-tel-input": "~12.1.6"
+    "grunt": "^1.6.1",
+    "intl-tel-input": "~25.2.1"
+  },
+  "volta": {
+    "node": "22.13.1"
   }
 }
