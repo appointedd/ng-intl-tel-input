@@ -35,7 +35,7 @@ importers:
         version: 4.0.0
       http-server:
         specifier: ^0.10.0
-        version: 0.10.0
+        version: 0.10.0(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0)
       jasmine-core:
         specifier: ^2.3.4
         version: 2.99.1
@@ -47,19 +47,19 @@ importers:
         version: 2.13.6
       karma:
         specifier: ^1.7.1
-        version: 1.7.1
+        version: 1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0)
       karma-chrome-launcher:
         specifier: ^2.2.0
         version: 2.2.0
       karma-jasmine:
         specifier: ^1.1.1
-        version: 1.1.2(jasmine-core@2.99.1)(karma@1.7.1)
+        version: 1.1.2(jasmine-core@2.99.1)(karma@1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0))
       karma-phantomjs-launcher:
         specifier: ^1.0.4
-        version: 1.0.4(karma@1.7.1)
+        version: 1.0.4(karma@1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0))(supports-color@4.4.0)
       karma-sinon:
         specifier: ^1.0.4
-        version: 1.0.5(karma@1.7.1)(sinon@4.5.0)
+        version: 1.0.5(karma@1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0))(sinon@4.5.0)
       mocha:
         specifier: ^4.0.1
         version: 4.1.0
@@ -68,13 +68,13 @@ importers:
         version: 1.13.0
       phantomjs:
         specifier: ^1.9.17
-        version: 1.9.20
+        version: 1.9.20(supports-color@4.4.0)
       phantomjs-polyfills:
         specifier: ^1.0.1
         version: 1.0.1
       protractor:
         specifier: ~2.4.0
-        version: 2.4.0
+        version: 2.4.0(supports-color@4.4.0)
       sinon:
         specifier: ^4.1.3
         version: 4.5.0
@@ -361,8 +361,8 @@ packages:
     resolution: {integrity: sha512-TNPjfTr432qx7yOjQyaXm3dSR0MH9vXp7eT1BFSl/C51g+EFnOR9hTg1IreahGBmDNCehscshe45f+C1TBZbLw==}
     engines: {node: '>=4'}
 
-  brace-expansion@1.1.11:
-    resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+  brace-expansion@1.1.21:
+    resolution: {integrity: sha512-9zeA+KLZNNzglF2TPKRQEDyx6Yby7daAkuy8MiPzpXPsYDWi/DRM8jmwUDxokQjYqBpv5DgPiwD4h4ZZSy1Ujw==}
 
   braces@0.1.5:
     resolution: {integrity: sha512-EIMHIv2UXHWFY2xubUGKz+hq9hNkENj4Pjvr7h58cmJgpkK2yMlKA8I484f7MSttkzVAy/lL7X9xDaILd6avzA==}
@@ -3293,11 +3293,11 @@ snapshots:
 
   bluebird@3.7.2: {}
 
-  body-parser@1.20.3:
+  body-parser@1.20.3(supports-color@4.4.0):
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@4.4.0)
       depd: 2.0.0
       destroy: 1.2.0
       http-errors: 2.0.0
@@ -3326,7 +3326,7 @@ snapshots:
       term-size: 1.2.0
       widest-line: 2.0.1
 
-  brace-expansion@1.1.11:
+  brace-expansion@1.1.21:
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -3341,7 +3341,7 @@ snapshots:
       preserve: 0.2.0
       repeat-element: 1.1.4
 
-  braces@2.3.2:
+  braces@2.3.2(supports-color@4.4.0):
     dependencies:
       arr-flatten: 1.1.0
       array-unique: 0.3.2
@@ -3349,7 +3349,7 @@ snapshots:
       fill-range: 4.0.0
       isobject: 3.0.1
       repeat-element: 1.1.4
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@4.4.0)
       snapdragon-node: 2.1.1
       split-string: 3.1.0
       to-regex: 3.0.2
@@ -3473,7 +3473,7 @@ snapshots:
     dependencies:
       get-func-name: 2.0.2
 
-  chokidar@1.7.0:
+  chokidar@1.7.0(supports-color@4.4.0):
     dependencies:
       anymatch: 1.3.2
       async-each: 1.0.6
@@ -3482,7 +3482,7 @@ snapshots:
       is-binary-path: 1.0.1
       is-glob: 2.0.1
       path-is-absolute: 1.0.1
-      readdirp: 2.2.1
+      readdirp: 2.2.1(supports-color@4.4.0)
     optionalDependencies:
       fsevents: 1.2.13
     transitivePeerDependencies:
@@ -3630,10 +3630,10 @@ snapshots:
       write-file-atomic: 2.4.3
       xdg-basedir: 3.0.0
 
-  connect@3.7.0:
+  connect@3.7.0(supports-color@4.4.0):
     dependencies:
-      debug: 2.6.9
-      finalhandler: 1.1.2
+      debug: 2.6.9(supports-color@4.4.0)
+      finalhandler: 1.1.2(supports-color@4.4.0)
       parseurl: 1.3.3
       utils-merge: 1.0.1
     transitivePeerDependencies:
@@ -3694,19 +3694,27 @@ snapshots:
 
   dateformat@4.6.3: {}
 
-  debug@0.7.4: {}
+  debug@0.7.4(supports-color@4.4.0):
+    optionalDependencies:
+      supports-color: 4.4.0
 
-  debug@2.2.0:
+  debug@2.2.0(supports-color@4.4.0):
     dependencies:
       ms: 0.7.1
+    optionalDependencies:
+      supports-color: 4.4.0
 
-  debug@2.3.3:
+  debug@2.3.3(supports-color@4.4.0):
     dependencies:
       ms: 0.7.2
+    optionalDependencies:
+      supports-color: 4.4.0
 
-  debug@2.6.9:
+  debug@2.6.9(supports-color@4.4.0):
     dependencies:
       ms: 2.0.0
+    optionalDependencies:
+      supports-color: 4.4.0
 
   debug@3.1.0(supports-color@4.4.0):
     dependencies:
@@ -3714,9 +3722,11 @@ snapshots:
     optionalDependencies:
       supports-color: 4.4.0
 
-  debug@3.2.7:
+  debug@3.2.7(supports-color@4.4.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 4.4.0
 
   decamelize@1.2.0: {}
 
@@ -3833,11 +3843,11 @@ snapshots:
     dependencies:
       once: 1.4.0
 
-  engine.io-client@1.8.3:
+  engine.io-client@1.8.3(supports-color@4.4.0):
     dependencies:
       component-emitter: 1.2.1
       component-inherit: 0.0.3
-      debug: 2.3.3
+      debug: 2.3.3(supports-color@4.4.0)
       engine.io-parser: 1.3.2
       has-cors: 1.1.0
       indexof: 0.0.1
@@ -3861,12 +3871,12 @@ snapshots:
       has-binary: 0.1.7
       wtf-8: 1.0.0
 
-  engine.io@1.8.3:
+  engine.io@1.8.3(supports-color@4.4.0):
     dependencies:
       accepts: 1.3.3
       base64id: 1.0.0
       cookie: 0.3.1
-      debug: 2.3.3
+      debug: 2.3.3(supports-color@4.4.0)
       engine.io-parser: 1.3.2
       ws: 1.1.2
     transitivePeerDependencies:
@@ -3929,14 +3939,14 @@ snapshots:
     dependencies:
       is-posix-bracket: 0.1.1
 
-  expand-brackets@2.1.4:
+  expand-brackets@2.1.4(supports-color@4.4.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@4.4.0)
       define-property: 0.2.5
       extend-shallow: 2.0.1
       posix-character-classes: 0.1.1
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@4.4.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -3969,32 +3979,32 @@ snapshots:
     dependencies:
       is-extglob: 1.0.0
 
-  extglob@2.0.4:
+  extglob@2.0.4(supports-color@4.4.0):
     dependencies:
       array-unique: 0.3.2
       define-property: 1.0.0
-      expand-brackets: 2.1.4
+      expand-brackets: 2.1.4(supports-color@4.4.0)
       extend-shallow: 2.0.1
       fragment-cache: 0.2.1
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@4.4.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
 
-  extract-zip@1.5.0:
+  extract-zip@1.5.0(supports-color@4.4.0):
     dependencies:
       concat-stream: 1.5.0
-      debug: 0.7.4
+      debug: 0.7.4(supports-color@4.4.0)
       mkdirp: 0.5.0
       yauzl: 2.4.1
     transitivePeerDependencies:
       - supports-color
 
-  extract-zip@1.7.0:
+  extract-zip@1.7.0(supports-color@4.4.0):
     dependencies:
       concat-stream: 1.6.2
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@4.4.0)
       mkdirp: 0.5.6
       yauzl: 2.10.0
     transitivePeerDependencies:
@@ -4038,9 +4048,9 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  finalhandler@1.1.2:
+  finalhandler@1.1.2(supports-color@4.4.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@4.4.0)
       encodeurl: 1.0.2
       escape-html: 1.0.3
       on-finished: 2.3.0
@@ -4084,7 +4094,9 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 2.3.8
 
-  follow-redirects@1.15.9: {}
+  follow-redirects@1.15.9(debug@3.2.7(supports-color@4.4.0)):
+    optionalDependencies:
+      debug: 3.2.7(supports-color@4.4.0)
 
   for-in@1.0.2: {}
 
@@ -4547,23 +4559,23 @@ snapshots:
       statuses: 2.0.1
       toidentifier: 1.0.1
 
-  http-proxy@1.18.1:
+  http-proxy@1.18.1(debug@3.2.7(supports-color@4.4.0)):
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.15.9
+      follow-redirects: 1.15.9(debug@3.2.7(supports-color@4.4.0))
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
 
-  http-server@0.10.0:
+  http-server@0.10.0(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0):
     dependencies:
       colors: 1.0.3
       corser: 2.0.1
       ecstatic: 2.2.2
-      http-proxy: 1.18.1
+      http-proxy: 1.18.1(debug@3.2.7(supports-color@4.4.0))
       opener: 1.4.3
       optimist: 0.6.1
-      portfinder: 1.0.32
+      portfinder: 1.0.32(supports-color@4.4.0)
       union: 0.4.6
     transitivePeerDependencies:
       - debug
@@ -4587,10 +4599,10 @@ snapshots:
       jsprim: 1.4.2
       sshpk: 1.18.0
 
-  https-proxy-agent@1.0.0:
+  https-proxy-agent@1.0.0(supports-color@4.4.0):
     dependencies:
       agent-base: 2.1.1
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@4.4.0)
       extend: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -4863,39 +4875,39 @@ snapshots:
       fs-access: 1.0.1
       which: 1.3.1
 
-  karma-jasmine@1.1.2(jasmine-core@2.99.1)(karma@1.7.1):
+  karma-jasmine@1.1.2(jasmine-core@2.99.1)(karma@1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0)):
     dependencies:
       jasmine-core: 2.99.1
-      karma: 1.7.1
+      karma: 1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0)
 
-  karma-phantomjs-launcher@1.0.4(karma@1.7.1):
+  karma-phantomjs-launcher@1.0.4(karma@1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0))(supports-color@4.4.0):
     dependencies:
-      karma: 1.7.1
+      karma: 1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0)
       lodash: 4.17.21
-      phantomjs-prebuilt: 2.1.16
+      phantomjs-prebuilt: 2.1.16(supports-color@4.4.0)
     transitivePeerDependencies:
       - supports-color
 
-  karma-sinon@1.0.5(karma@1.7.1)(sinon@4.5.0):
+  karma-sinon@1.0.5(karma@1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0))(sinon@4.5.0):
     dependencies:
-      karma: 1.7.1
+      karma: 1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0)
       sinon: 4.5.0
 
-  karma@1.7.1:
+  karma@1.7.1(debug@3.2.7(supports-color@4.4.0))(supports-color@4.4.0):
     dependencies:
       bluebird: 3.7.2
-      body-parser: 1.20.3
-      chokidar: 1.7.0
+      body-parser: 1.20.3(supports-color@4.4.0)
+      chokidar: 1.7.0(supports-color@4.4.0)
       colors: 1.4.0
       combine-lists: 1.0.1
-      connect: 3.7.0
+      connect: 3.7.0(supports-color@4.4.0)
       core-js: 2.6.12
       di: 0.0.1
       dom-serialize: 2.2.1
       expand-braces: 0.1.2
       glob: 7.2.3
       graceful-fs: 4.2.11
-      http-proxy: 1.18.1
+      http-proxy: 1.18.1(debug@3.2.7(supports-color@4.4.0))
       isbinaryfile: 3.0.3
       lodash: 3.10.1
       log4js: 0.6.38
@@ -4906,7 +4918,7 @@ snapshots:
       range-parser: 1.2.1
       rimraf: 2.7.1
       safe-buffer: 5.2.1
-      socket.io: 1.7.3
+      socket.io: 1.7.3(supports-color@4.4.0)
       source-map: 0.5.7
       tmp: 0.0.31
       useragent: 2.3.0
@@ -5043,20 +5055,20 @@ snapshots:
       parse-glob: 3.0.4
       regex-cache: 0.4.4
 
-  micromatch@3.1.10:
+  micromatch@3.1.10(supports-color@4.4.0):
     dependencies:
       arr-diff: 4.0.0
       array-unique: 0.3.2
-      braces: 2.3.2
+      braces: 2.3.2(supports-color@4.4.0)
       define-property: 2.0.2
       extend-shallow: 3.0.2
-      extglob: 2.0.4
+      extglob: 2.0.4(supports-color@4.4.0)
       fragment-cache: 0.2.1
       kind-of: 6.0.3
-      nanomatch: 1.2.13
+      nanomatch: 1.2.13(supports-color@4.4.0)
       object.pick: 1.3.0
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@4.4.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5094,11 +5106,11 @@ snapshots:
 
   minimatch@3.0.8:
     dependencies:
-      brace-expansion: 1.1.11
+      brace-expansion: 1.1.21
 
   minimatch@3.1.2:
     dependencies:
-      brace-expansion: 1.1.11
+      brace-expansion: 1.1.21
 
   minimist@0.0.10: {}
 
@@ -5163,7 +5175,7 @@ snapshots:
   nan@2.4.0:
     optional: true
 
-  nanomatch@1.2.13:
+  nanomatch@1.2.13(supports-color@4.4.0):
     dependencies:
       arr-diff: 4.0.0
       array-unique: 0.3.2
@@ -5174,7 +5186,7 @@ snapshots:
       kind-of: 6.0.3
       object.pick: 1.3.0
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@4.4.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5382,10 +5394,10 @@ snapshots:
 
   phantomjs-polyfills@1.0.1: {}
 
-  phantomjs-prebuilt@2.1.16:
+  phantomjs-prebuilt@2.1.16(supports-color@4.4.0):
     dependencies:
       es6-promise: 4.2.8
-      extract-zip: 1.7.0
+      extract-zip: 1.7.0(supports-color@4.4.0)
       fs-extra: 1.0.0
       hasha: 2.2.0
       kew: 0.7.0
@@ -5396,9 +5408,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  phantomjs@1.9.20:
+  phantomjs@1.9.20(supports-color@4.4.0):
     dependencies:
-      extract-zip: 1.5.0
+      extract-zip: 1.5.0(supports-color@4.4.0)
       fs-extra: 0.26.7
       hasha: 2.2.0
       kew: 0.7.0
@@ -5419,10 +5431,10 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  portfinder@1.0.32:
+  portfinder@1.0.32(supports-color@4.4.0):
     dependencies:
       async: 2.6.4
-      debug: 3.2.7
+      debug: 3.2.7(supports-color@4.4.0)
       mkdirp: 0.5.6
     transitivePeerDependencies:
       - supports-color
@@ -5439,7 +5451,7 @@ snapshots:
 
   progress@1.1.8: {}
 
-  protractor@2.4.0:
+  protractor@2.4.0(supports-color@4.4.0):
     dependencies:
       accessibility-developer-tools: 2.6.0
       adm-zip: 0.4.4
@@ -5453,7 +5465,7 @@ snapshots:
       optimist: 0.6.1
       q: 1.0.0
       request: 2.57.0
-      saucelabs: 1.0.1
+      saucelabs: 1.0.1(supports-color@4.4.0)
       selenium-webdriver: 2.47.0
       source-map-support: 0.2.10
     transitivePeerDependencies:
@@ -5557,10 +5569,10 @@ snapshots:
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
 
-  readdirp@2.2.1:
+  readdirp@2.2.1(supports-color@4.4.0):
     dependencies:
       graceful-fs: 4.2.11
-      micromatch: 3.1.10
+      micromatch: 3.1.10(supports-color@4.4.0)
       readable-stream: 2.3.8
     transitivePeerDependencies:
       - supports-color
@@ -5728,9 +5740,9 @@ snapshots:
 
   samsam@1.3.0: {}
 
-  saucelabs@1.0.1:
+  saucelabs@1.0.1(supports-color@4.4.0):
     dependencies:
-      https-proxy-agent: 1.0.0
+      https-proxy-agent: 1.0.0(supports-color@4.4.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5832,10 +5844,10 @@ snapshots:
     dependencies:
       kind-of: 3.2.2
 
-  snapdragon@0.8.2:
+  snapdragon@0.8.2(supports-color@4.4.0):
     dependencies:
       base: 0.11.2
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@4.4.0)
       define-property: 0.2.5
       extend-shallow: 2.0.1
       map-cache: 0.2.2
@@ -5849,49 +5861,49 @@ snapshots:
     dependencies:
       hoek: 2.16.3
 
-  socket.io-adapter@0.5.0:
+  socket.io-adapter@0.5.0(supports-color@4.4.0):
     dependencies:
-      debug: 2.3.3
-      socket.io-parser: 2.3.1
+      debug: 2.3.3(supports-color@4.4.0)
+      socket.io-parser: 2.3.1(supports-color@4.4.0)
     transitivePeerDependencies:
       - supports-color
 
-  socket.io-client@1.7.3:
+  socket.io-client@1.7.3(supports-color@4.4.0):
     dependencies:
       backo2: 1.0.2
       component-bind: 1.0.0
       component-emitter: 1.2.1
-      debug: 2.3.3
-      engine.io-client: 1.8.3
+      debug: 2.3.3(supports-color@4.4.0)
+      engine.io-client: 1.8.3(supports-color@4.4.0)
       has-binary: 0.1.7
       indexof: 0.0.1
       object-component: 0.0.3
       parseuri: 0.0.5
-      socket.io-parser: 2.3.1
+      socket.io-parser: 2.3.1(supports-color@4.4.0)
       to-array: 0.1.4
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  socket.io-parser@2.3.1:
+  socket.io-parser@2.3.1(supports-color@4.4.0):
     dependencies:
       component-emitter: 1.1.2
-      debug: 2.2.0
+      debug: 2.2.0(supports-color@4.4.0)
       isarray: 0.0.1
       json3: 3.3.2
     transitivePeerDependencies:
       - supports-color
 
-  socket.io@1.7.3:
+  socket.io@1.7.3(supports-color@4.4.0):
     dependencies:
-      debug: 2.3.3
-      engine.io: 1.8.3
+      debug: 2.3.3(supports-color@4.4.0)
+      engine.io: 1.8.3(supports-color@4.4.0)
       has-binary: 0.1.7
       object-assign: 4.1.0
-      socket.io-adapter: 0.5.0
-      socket.io-client: 1.7.3
-      socket.io-parser: 2.3.1
+      socket.io-adapter: 0.5.0(supports-color@4.4.0)
+      socket.io-client: 1.7.3(supports-color@4.4.0)
+      socket.io-parser: 2.3.1(supports-color@4.4.0)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
